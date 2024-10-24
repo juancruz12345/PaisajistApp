@@ -1,0 +1,64 @@
+:root{
+    
+    --shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.offcanvas{
+    
+    & img{
+        border: 1px solid rgb(148, 148, 148);
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+        padding: 10px;
+    }
+}
+#badge{
+    border-radius: 99999px;
+    background: linear-gradient(#48dd98,#198754) !important;
+}
+
+.title{
+   
+    display: flex;
+    justify-content: center;
+  
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.overlay-list{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.overlay{
+    
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.overlay-icon{
+    display: flex;
+    padding-right: 15px;
+}
+
+.descripcion{
+    line-height: 1.8rem;
+}
+
+[data-bs-theme=light]{
+    .overlay-icon{
+        width: min-content;
+    }
+    .btn-overlay:hover{
+        background-color: white;
+        border: none;
+        border-radius: 8px;
+        
+    }
+    
+}

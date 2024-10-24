@@ -1,0 +1,20 @@
+
+.badge{
+    min-height: 6vh;
+    background: linear-gradient(#48dd98,#198754) !important;
+    align-content: center;
+    justify-content: center;
+}
+.modal-header{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.modal-body{
+    margin-left: 5px;
+    & li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        min-height: 10vh;
+        font-size: 1.1rem;
+    }
+}
